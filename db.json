@@ -1,1 +1,129 @@
-
+{
+  "attractions": {
+    "status": "success",
+    "data": [
+      {
+        "id": "1",
+        "name": "Vịnh Hạ Long",
+        "description": "Vịnh Hạ Long là một vịnh nhỏ thuộc phần bờ tây vịnh Bắc Bộ tại khu vực biển Đông Bắc Việt Nam, bao gồm vùng biển đảo của thành phố Hạ Long thuộc tỉnh Quảng Ninh.",
+        "region": "Bắc Bộ",
+        "thumbnail": "halong"
+      },
+      {
+        "id": "2",
+        "name": "Phố cổ Hội An",
+        "description": "Phố cổ Hội An là một đô thị cổ nằm ở hạ lưu sông Thu Bồn, thuộc vùng đồng bằng ven biển tỉnh Quảng Nam, Việt Nam.",
+        "region": "Trung Bộ",
+        "thumbnail": "hoian"
+      },
+      {
+        "id": "3",
+        "name": "Động Phong Nha",
+        "description": "Động Phong Nha là một hang động nằm trong quần thể Vườn quốc gia Phong Nha-Kẻ Bàng, một di sản thiên nhiên thế giới được UNESCO công nhận.",
+        "region": "Trung Bộ",
+        "thumbnail": "phongnha"
+      },
+      {
+        "id": "4",
+        "name": "Ruộng bậc thang Mù Cang Chải",
+        "description": "Ruộng bậc thang Mù Cang Chải là những thửa ruộng được tạo thành trên các sườn núi dốc, tạo nên một cảnh quan tuyệt đẹp.",
+        "region": "Bắc Bộ",
+        "thumbnail": "mucangchai"
+      },
+      {
+        "id": "5",
+        "name": "Đảo Phú Quốc",
+        "description": "Phú Quốc là hòn đảo lớn nhất Việt Nam, nằm trong vịnh Thái Lan. Đảo Phú Quốc cùng với các đảo nhỏ hơn ở lân cận và quần đảo Thổ Chu nằm cách đó 55 hải lý về phía tây nam tạo thành thành phố Phú Quốc thuộc tỉnh Kiên Giang.",
+        "region": "Nam Bộ",
+        "thumbnail": "phuquoc"
+      }
+    ]
+  },
+  "attraction_details": [
+    {
+      "id": "1",
+      "status": "success",
+      "data": {
+        "id": "1",
+        "name": "Vịnh Hạ Long",
+        "description": "# Vịnh Hạ Long\n\n**Vịnh Hạ Long** là một vịnh nhỏ thuộc phần bờ tây vịnh Bắc Bộ tại khu vực biển Đông Bắc Việt Nam, bao gồm vùng biển đảo của thành phố Hạ Long thuộc tỉnh Quảng Ninh.\n\n## Thông tin chung\n\nVịnh Hạ Long có diện tích khoảng 1.553 km², bao gồm 1.969 hòn đảo đá vôi, trong đó có 989 đảo có tên và 980 đảo chưa được đặt tên, tạo nên một hệ sinh thái biển và trên đảo vô cùng đa dạng.\n\n## Di sản thế giới\n\nVịnh Hạ Long được UNESCO công nhận là Di sản Thiên nhiên Thế giới lần đầu vào năm 1994 và lần thứ hai vào năm 2000 với các tiêu chí về giá trị thẩm mỹ và địa chất địa mạo.",
+        "region": "Bắc Bộ",
+        "images": ["halong1", "halong2", "halong3"],
+        "details": {
+          "unesco": true,
+          "bestTimeToVisit": "Tháng 3 - Tháng 8",
+          "activities": ["Tham quan hang động", "Chèo thuyền kayak", "Tắm biển", "Ngắm hoàng hôn", "Thưởng thức hải sản"]
+        }
+      }
+    },
+    {
+      "id": "2",
+      "status": "success",
+      "data": {
+        "id": "2",
+        "name": "Phố cổ Hội An",
+        "description": "# Phố cổ Hội An\n\n**Phố cổ Hội An** là một đô thị cổ nằm ở hạ lưu sông Thu Bồn, thuộc vùng đồng bằng ven biển tỉnh Quảng Nam, Việt Nam.\n\n## Lịch sử\n\nPhố cổ này hiện nay là một trong những điểm du lịch hấp dẫn hàng đầu của Việt Nam với kiến trúc cổ độc đáo được bảo tồn gần như nguyên vẹn, là sự kết hợp hài hòa của các yếu tố kiến trúc bản địa và nước ngoài.\n\n## Di sản thế giới\n\nHội An được UNESCO công nhận là Di sản Văn hóa Thế giới vào năm 1999, là một điểm đến nổi tiếng với những con phố đèn lồng đầy màu sắc và kiến trúc cổ kính.",
+        "region": "Trung Bộ",
+        "images": ["hoian1", "hoian2", "hoian3"],
+        "details": {
+          "unesco": true,
+          "bestTimeToVisit": "Tháng 2 - Tháng 4",
+          "activities": ["Tham quan các di tích lịch sử", "Thả đèn hoa đăng", "Mua sắm đồ thủ công", "Học nấu ăn", "Tham quan làng nghề"]
+        }
+      }
+    },
+    {
+      "id": "3",
+      "status": "success",
+      "data": {
+        "id": "3",
+        "name": "Động Phong Nha",
+        "description": "# Động Phong Nha\n\n**Động Phong Nha** là một hang động nằm trong quần thể Vườn quốc gia Phong Nha-Kẻ Bàng, một di sản thiên nhiên thế giới được UNESCO công nhận.\n\n## Đặc điểm\n\nĐộng Phong Nha có chiều dài 7.729m, có nhiều sông ngầm, hồ ngầm, thạch nhũ và măng đá với nhiều hình dạng và màu sắc khác nhau.\n\n## Giá trị\n\nVườn quốc gia Phong Nha-Kẻ Bàng được UNESCO công nhận là Di sản Thiên nhiên Thế giới vào năm 2003 với các tiêu chí về địa chất, địa mạo và đa dạng sinh học.",
+        "region": "Trung Bộ",
+        "images": ["phongnha1", "phongnha2", "phongnha3"],
+        "details": {
+          "unesco": true,
+          "bestTimeToVisit": "Tháng 4 - Tháng 8",
+          "activities": ["Khám phá hang động", "Đi thuyền trên sông", "Trekking", "Cắm trại", "Chụp ảnh"]
+        }
+      }
+    },
+    {
+      "id": "4",
+      "status": "success",
+      "data": {
+        "id": "4",
+        "name": "Ruộng bậc thang Mù Cang Chải",
+        "description": "# Ruộng bậc thang Mù Cang Chải\n\n**Ruộng bậc thang Mù Cang Chải** là những thửa ruộng được tạo thành trên các sườn núi dốc, tạo nên một cảnh quan tuyệt đẹp.\n\n## Vị trí\n\nMù Cang Chải là một huyện miền núi thuộc tỉnh Yên Bái, cách Hà Nội khoảng 280km về phía Tây Bắc.\n\n## Giá trị văn hóa\n\nRuộng bậc thang Mù Cang Chải được công nhận là Di sản Quốc gia vào năm 2007 và là một trong những cảnh quan nông nghiệp đẹp nhất Việt Nam.",
+        "region": "Bắc Bộ",
+        "images": ["mucangchai1", "mucangchai2", "mucangchai3"],
+        "details": {
+          "unesco": false,
+          "bestTimeToVisit": "Tháng 9 - Tháng 10",
+          "activities": ["Ngắm cảnh", "Chụp ảnh", "Trekking", "Khám phá văn hóa dân tộc", "Thưởng thức ẩm thực địa phương"]
+        }
+      }
+    },
+    {
+      "id": "5",
+      "status": "success",
+      "data": {
+        "id": "5",
+        "name": "Đảo Phú Quốc",
+        "description": "# Đảo Phú Quốc\n\n**Phú Quốc** là hòn đảo lớn nhất Việt Nam, nằm trong vịnh Thái Lan.\n\n## Vị trí\n\nĐảo Phú Quốc cùng với các đảo nhỏ hơn ở lân cận và quần đảo Thổ Chu nằm cách đó 55 hải lý về phía tây nam tạo thành thành phố Phú Quốc thuộc tỉnh Kiên Giang.\n\n## Du lịch\n\nPhú Quốc nổi tiếng với những bãi biển cát trắng tuyệt đẹp, nước biển trong xanh, rừng nguyên sinh và ẩm thực phong phú, đặc biệt là nước mắm Phú Quốc nổi tiếng.",
+        "region": "Nam Bộ",
+        "images": ["phuquoc1", "phuquoc2", "phuquoc3"],
+        "details": {
+          "unesco": false,
+          "bestTimeToVisit": "Tháng 11 - Tháng 4",
+          "activities": ["Tắm biển", "Lặn ngắm san hô", "Câu cá", "Khám phá rừng nguyên sinh", "Thưởng thức hải sản"]
+        }
+      }
+    }
+  ],
+  "collect_view": {
+    "status": "success",
+    "message": "View collected successfully",
+    "timestamp": "2023-09-01T12:00:00Z"
+  }
+}
